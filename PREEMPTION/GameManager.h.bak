@@ -1,0 +1,16 @@
+#pragma once
+#include <QObject>
+
+class GameManager:public QObject
+{
+  Q_OBJECT
+public:
+  void Init();
+  void Begin();
+protected slots:
+  void qmlSlot_inputBox_discard();
+  void qmlSlot_inputBox_accept();
+  void qmlSlot_cell_onClick(int x,int y);
+  void qmlSlot_cell_onMouseLeave(int x,int y);
+  void qmlSlot_arrow_onClick(int x,int y,int dir);
+};

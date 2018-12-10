@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>controls/CVCell.qml</file>
+        <file>pages/GameCanvas.qml</file>
+        <file>pages/Index.qml</file>
+        <file>controls/CVArrow.qml</file>
+        <file>images/pause.png</file>
+        <file>images/run.png</file>
+        <file>controls/CVButton.qml</file>
+        <file>images/arrow.png</file>
+        <file>images/cell.png</file>
+        <file>images/bg.jpg</file>
+        <file>controls/CVInputBox.qml</file>
+        <file>controls/CVMessageBox.qml</file>
+    </qresource>
+</RCC>

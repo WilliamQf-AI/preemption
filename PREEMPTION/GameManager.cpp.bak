@@ -1,0 +1,26 @@
+#include "GameManager.h"
+
+void GameManager::qmlSlot_inputBox_discard()
+{
+  qDebug("qmlSlot_inputBox_discard");
+}
+
+void GameManager::qmlSlot_inputBox_accept()
+{
+  qDebug("qmlSlot_inputBox_accept");
+}
+
+void GameManager::qmlSlot_cell_onClick(int x,int y)
+{
+  qDebug("qmlSlot_cell_onClick x=%d y=%d",x,y);
+}
+
+void GameManager::qmlSlot_cell_onMouseLeave(int x,int y)
+{
+  qDebug("qmlSlot_inputBox_discard x=%d y=%d",x,y);
+}
+
+void GameManager::qmlSlot_arrow_onClick(int x,int y,int dir)
+{
+  qDebug("qmlSlot_arrow_onClick x=%d y=%d dir=%d",x,y,dir);
+}
